@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Start Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" rel="stylesheet" href="index.css">
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<form action="success.json" id="myForm">
+		<div class="fname">Тестовое задание</div>
+		<label class="field"> 
+			<span>ФИО</span> 
+			<input type="text" 
+				name="fio" 
+				placeholder="Иванов Иван Иванович" 
+				id="myForm_fio"
+				autofocus="autofocus">
+		</label>
+		<label class="field">
+			<span>Email</span>
+			<input
+				type="text" 
+				name="email" 
+				placeholder="ivanov@yandex.ru"
+				id="myForm_email">
+		</label>
+		<label class="field">
+			<span>Телефон</span>
+			<input 
+			type="text"
+			name="phone" 
+			placeholder="+7(987)654-32-10"
+			id="myForm_phone"></label>
+		<div id="resultContainer"></div>
+		<div class="buttons">
+			<label class="ok">
+			<div class="push"></div>
+			<button class="text" id="myForm_submit" >Отправить</button></label>
+		</div>
+	</form>
+</body>
+</html>
